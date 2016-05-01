@@ -21,22 +21,13 @@ app.register_blueprint(controllers.userapi)
 app.register_blueprint(controllers.friendsapi)
 app.register_blueprint(controllers.loginapi)
 app.register_blueprint(controllers.logoutapi)
+app.register_blueprint(controllers.picturesapi)
 
 
 
 @app.route('/')
 def index_route():
 	return render_template('index.html')
-
-@app.route('/login', methods=['GET', 'POST'])
-def login_route():
-	if 'username' in session: 
-		return redirect(url_for("user.user_edit_route"))
-	return render_template("login.html")
-
-@app.route('/logout', methods=['GET', 'POST'])
-def logout():
-	return redirect(url_for('index_route'))
 
 #Set the secret key
 app.secret_key = '&??Jpl??4??z????o???#?'
