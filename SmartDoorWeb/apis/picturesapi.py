@@ -36,9 +36,9 @@ def getAllPictureData():
 			"error": "permission denied"
 		}
 	else: 
-		pictureData = query("SELECT * FROM Picture WHERE username = '"+session['username']+"'")
+		currentPic = query("SELECT current_picture FROM Picture WHERE username = '"+session['username']+"'")[0][0]
 		attributes = {
-			"pictures" : pictureData[0]; 
+			"pictures" : currentPic; 
 		}
 	obj = jsonify(attributes)
 	obj.status_code = response_num
