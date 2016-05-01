@@ -1,0 +1,509 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F65263DF1CD49039000D81F2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F65263DE1CD49039000D81F2 /* AppDelegate.swift */; };
+		F65263E11CD49039000D81F2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F65263E01CD49039000D81F2 /* ViewController.swift */; };
+		F65263E41CD49039000D81F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F65263E21CD49039000D81F2 /* Main.storyboard */; };
+		F65263E61CD49039000D81F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F65263E51CD49039000D81F2 /* Assets.xcassets */; };
+		F65263E91CD49039000D81F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F65263E71CD49039000D81F2 /* LaunchScreen.storyboard */; };
+		F65263F41CD49039000D81F2 /* SmartDoorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F65263F31CD49039000D81F2 /* SmartDoorTests.swift */; };
+		F65263FF1CD49039000D81F2 /* SmartDoorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F65263FE1CD49039000D81F2 /* SmartDoorUITests.swift */; };
+		F652640D1CD490FC000D81F2 /* UserProfiles.swift in Sources */ = {isa = PBXBuildFile; fileRef = F652640C1CD490FC000D81F2 /* UserProfiles.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F65263F01CD49039000D81F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F65263D31CD49038000D81F2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F65263DA1CD49039000D81F2;
+			remoteInfo = SmartDoor;
+		};
+		F65263FB1CD49039000D81F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F65263D31CD49038000D81F2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F65263DA1CD49039000D81F2;
+			remoteInfo = SmartDoor;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F65263DB1CD49039000D81F2 /* SmartDoor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartDoor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F65263DE1CD49039000D81F2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F65263E01CD49039000D81F2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F65263E31CD49039000D81F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F65263E51CD49039000D81F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F65263E81CD49039000D81F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F65263EA1CD49039000D81F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F65263EF1CD49039000D81F2 /* SmartDoorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmartDoorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F65263F31CD49039000D81F2 /* SmartDoorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartDoorTests.swift; sourceTree = "<group>"; };
+		F65263F51CD49039000D81F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F65263FA1CD49039000D81F2 /* SmartDoorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmartDoorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F65263FE1CD49039000D81F2 /* SmartDoorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartDoorUITests.swift; sourceTree = "<group>"; };
+		F65264001CD49039000D81F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F652640C1CD490FC000D81F2 /* UserProfiles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserProfiles.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F65263D81CD49039000D81F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F65263EC1CD49039000D81F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F65263F71CD49039000D81F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F65263D21CD49038000D81F2 = {
+			isa = PBXGroup;
+			children = (
+				F65263DD1CD49039000D81F2 /* SmartDoor */,
+				F65263F21CD49039000D81F2 /* SmartDoorTests */,
+				F65263FD1CD49039000D81F2 /* SmartDoorUITests */,
+				F65263DC1CD49039000D81F2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F65263DC1CD49039000D81F2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F65263DB1CD49039000D81F2 /* SmartDoor.app */,
+				F65263EF1CD49039000D81F2 /* SmartDoorTests.xctest */,
+				F65263FA1CD49039000D81F2 /* SmartDoorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F65263DD1CD49039000D81F2 /* SmartDoor */ = {
+			isa = PBXGroup;
+			children = (
+				F65263DE1CD49039000D81F2 /* AppDelegate.swift */,
+				F65263E01CD49039000D81F2 /* ViewController.swift */,
+				F65263E21CD49039000D81F2 /* Main.storyboard */,
+				F652640C1CD490FC000D81F2 /* UserProfiles.swift */,
+				F65263E51CD49039000D81F2 /* Assets.xcassets */,
+				F65263E71CD49039000D81F2 /* LaunchScreen.storyboard */,
+				F65263EA1CD49039000D81F2 /* Info.plist */,
+			);
+			path = SmartDoor;
+			sourceTree = "<group>";
+		};
+		F65263F21CD49039000D81F2 /* SmartDoorTests */ = {
+			isa = PBXGroup;
+			children = (
+				F65263F31CD49039000D81F2 /* SmartDoorTests.swift */,
+				F65263F51CD49039000D81F2 /* Info.plist */,
+			);
+			path = SmartDoorTests;
+			sourceTree = "<group>";
+		};
+		F65263FD1CD49039000D81F2 /* SmartDoorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F65263FE1CD49039000D81F2 /* SmartDoorUITests.swift */,
+				F65264001CD49039000D81F2 /* Info.plist */,
+			);
+			path = SmartDoorUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F65263DA1CD49039000D81F2 /* SmartDoor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F65264031CD49039000D81F2 /* Build configuration list for PBXNativeTarget "SmartDoor" */;
+			buildPhases = (
+				F65263D71CD49039000D81F2 /* Sources */,
+				F65263D81CD49039000D81F2 /* Frameworks */,
+				F65263D91CD49039000D81F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SmartDoor;
+			productName = SmartDoor;
+			productReference = F65263DB1CD49039000D81F2 /* SmartDoor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F65263EE1CD49039000D81F2 /* SmartDoorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F65264061CD49039000D81F2 /* Build configuration list for PBXNativeTarget "SmartDoorTests" */;
+			buildPhases = (
+				F65263EB1CD49039000D81F2 /* Sources */,
+				F65263EC1CD49039000D81F2 /* Frameworks */,
+				F65263ED1CD49039000D81F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F65263F11CD49039000D81F2 /* PBXTargetDependency */,
+			);
+			name = SmartDoorTests;
+			productName = SmartDoorTests;
+			productReference = F65263EF1CD49039000D81F2 /* SmartDoorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F65263F91CD49039000D81F2 /* SmartDoorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F65264091CD49039000D81F2 /* Build configuration list for PBXNativeTarget "SmartDoorUITests" */;
+			buildPhases = (
+				F65263F61CD49039000D81F2 /* Sources */,
+				F65263F71CD49039000D81F2 /* Frameworks */,
+				F65263F81CD49039000D81F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F65263FC1CD49039000D81F2 /* PBXTargetDependency */,
+			);
+			name = SmartDoorUITests;
+			productName = SmartDoorUITests;
+			productReference = F65263FA1CD49039000D81F2 /* SmartDoorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F65263D31CD49038000D81F2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Vaish Raman";
+				TargetAttributes = {
+					F65263DA1CD49039000D81F2 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					F65263EE1CD49039000D81F2 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = F65263DA1CD49039000D81F2;
+					};
+					F65263F91CD49039000D81F2 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = F65263DA1CD49039000D81F2;
+					};
+				};
+			};
+			buildConfigurationList = F65263D61CD49038000D81F2 /* Build configuration list for PBXProject "SmartDoor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F65263D21CD49038000D81F2;
+			productRefGroup = F65263DC1CD49039000D81F2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F65263DA1CD49039000D81F2 /* SmartDoor */,
+				F65263EE1CD49039000D81F2 /* SmartDoorTests */,
+				F65263F91CD49039000D81F2 /* SmartDoorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F65263D91CD49039000D81F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F65263E91CD49039000D81F2 /* LaunchScreen.storyboard in Resources */,
+				F65263E61CD49039000D81F2 /* Assets.xcassets in Resources */,
+				F65263E41CD49039000D81F2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F65263ED1CD49039000D81F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F65263F81CD49039000D81F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F65263D71CD49039000D81F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F652640D1CD490FC000D81F2 /* UserProfiles.swift in Sources */,
+				F65263E11CD49039000D81F2 /* ViewController.swift in Sources */,
+				F65263DF1CD49039000D81F2 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F65263EB1CD49039000D81F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F65263F41CD49039000D81F2 /* SmartDoorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F65263F61CD49039000D81F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F65263FF1CD49039000D81F2 /* SmartDoorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F65263F11CD49039000D81F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F65263DA1CD49039000D81F2 /* SmartDoor */;
+			targetProxy = F65263F01CD49039000D81F2 /* PBXContainerItemProxy */;
+		};
+		F65263FC1CD49039000D81F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F65263DA1CD49039000D81F2 /* SmartDoor */;
+			targetProxy = F65263FB1CD49039000D81F2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F65263E21CD49039000D81F2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F65263E31CD49039000D81F2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F65263E71CD49039000D81F2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F65263E81CD49039000D81F2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F65264011CD49039000D81F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F65264021CD49039000D81F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F65264041CD49039000D81F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SmartDoor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = vr.SmartDoor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F65264051CD49039000D81F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SmartDoor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = vr.SmartDoor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F65264071CD49039000D81F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SmartDoorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = vr.SmartDoorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SmartDoor.app/SmartDoor";
+			};
+			name = Debug;
+		};
+		F65264081CD49039000D81F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SmartDoorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = vr.SmartDoorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SmartDoor.app/SmartDoor";
+			};
+			name = Release;
+		};
+		F652640A1CD49039000D81F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SmartDoorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = vr.SmartDoorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SmartDoor;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		F652640B1CD49039000D81F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SmartDoorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = vr.SmartDoorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SmartDoor;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F65263D61CD49038000D81F2 /* Build configuration list for PBXProject "SmartDoor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F65264011CD49039000D81F2 /* Debug */,
+				F65264021CD49039000D81F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F65264031CD49039000D81F2 /* Build configuration list for PBXNativeTarget "SmartDoor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F65264041CD49039000D81F2 /* Debug */,
+				F65264051CD49039000D81F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F65264061CD49039000D81F2 /* Build configuration list for PBXNativeTarget "SmartDoorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F65264071CD49039000D81F2 /* Debug */,
+				F65264081CD49039000D81F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F65264091CD49039000D81F2 /* Build configuration list for PBXNativeTarget "SmartDoorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F652640A1CD49039000D81F2 /* Debug */,
+				F652640B1CD49039000D81F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F65263D31CD49038000D81F2 /* Project object */;
+}
