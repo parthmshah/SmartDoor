@@ -55,6 +55,9 @@ def addFriend():
 			"error": "no session exists"
 		}
 	else: 
+		#check whether or not this username exists already. 
+		#if exists, then replace picture
+		#else, just add the picture
 		update("INSERT INTO Picture(username, current_picture) VALUES('"+session['username']+"', '"+args['current_picture']+" ')")
 		attributes = {
 			"username": session['username'],
